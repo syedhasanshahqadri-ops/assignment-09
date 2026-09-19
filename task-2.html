@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100vh;
+    }
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f7f3f3;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .left {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        align-items:center;
+        text-align: left;
+    }
+    .right {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .box {
+        background-color:white;
+        padding: 20px;
+        border-radius: 8px;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 400px;
+        height: 300px;
+    }
+    h1 {
+        color: #1877f2;
+        font-size: 50px;
+        
+    }
+    input[type="text"], input[type="password"] {
+        width: 90%;
+        padding: 10px;
+        
+        border: 1px solid black;
+        border-radius: 4px;
+        
+    }
+    .a{
+        text-decoration: none;
+        color: white;
+        background-color: #1877f2;
+        width: 95%;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+    }
+    .c{
+        text-decoration: none;
+        color: #1877f2;
+    }
+    .b{
+        color:white;
+        background-color: #42b72a;
+        
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+    }
+    .a:hover{
+        background-color: rgb(65, 5, 5);
+    }
+    .b:hover{
+        background-color: rgb(65, 5, 5);
+    }
+    .c:hover{
+        color:rgb(65, 5, 5);
+    }
+    
+</style>
+<body>
+<div class="container">
+    <div class="left">
+<h1>facebook</h1>
+<p>Connect with friends and the world<BR> around you on Facebook.</p>
+    </div>
+    <div class="right">
+        <div class="box">
+            
+            <form action="">
+                <input type="text" placeholder="Email or Phone Number"><br><br>
+                <input type="password" placeholder="Password"><br><br>
+                <button class="a">Log In</button><br><br>
+                <a href="#" class="c">Forgot password?</a><br><br>
+                <hr>
+                <br>
+                <button class="b">Create New Account</button>
+            </form>
+        </div>
+    </div>
+</div>
+<HR>
+<br>
+<br>
+<a href="index.html">home</a>
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
